@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Login Form</title>
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Login Form</title>
 </head>
 <body>
+<section>
+  <form class="submission-form" action="#" method="post">
+    <fieldset>
+      <legend>Contact me</legend>
 
-<div class="center">
-  <h1>Login</h1>
-  <form method="post">
-    <div class="txt_field">
-      <input type="text" required>
-      <label>Username</label>
-    </div>
-    <div class="txt_field">
-      <input type="text" required>
-      <label>Password</label>
-    </div>
-    <div class="pass">Forgot Password?</div>
-    <input type="submit" value="Login">
-    <div class="singup_link">Not a member?<a href="#">Singup</a> </div>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name">
+      </div>
+
+      <div>
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+      </div>
+
+      <div>
+        <label for="forget_password">Forger Password?</label>
+        <input type="submit" id="forget_password"><a href="#">Singup</a></div>
+      </div>
+
+
+    </fieldset>
   </form>
-</div>
+</section>
 
 </body>
 </html>
