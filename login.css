@@ -1,4 +1,4 @@
-.center
+.submission-form
 {
 background-color: #d9d9d9;
 margin:4px;
@@ -8,9 +8,18 @@ border:2px solid #404040;
 padding:10px;
 border-radius:5px;
 font-size: 16px;
+
 }
 
-input, div
+.label, div
+{
+display:block;
+padding:1rem 0 .25rem;
+font-size:14x;
+margin-top: 1em;
+}
+
+.input, div
 {
 padding:1em;
 border:solid 1px #ccc;
@@ -23,12 +32,4 @@ width:95%;
 border:1px solid #ffffff;
 padding:.3rem;
 border-radius:5px;
-}
-
-.label, div
-{
-display:block;
-padding:1rem 0 .25rem;
-font-size:14x;
-margin-top: 1em;
 }
